@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses chart component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <main> -->
+    <div class="expenses grid-flow">
+      <h1 class="sr-only">Expenses Information</h1>
+      <div class="balance">
+        <div class="grid-flow" data-spacing="small">
+          <h2>My Balance</h2>
+          <p class="balance_amount">$921.48</p>
+        </div>
+        <img src="./assets/logo.svg" alt="" aria-hidden="true" />
+      </div>
+
+      <div class="spending grid-flow">
+        <h2 class="section-title">Spending - Last 7 days</h2>
+        <div class="spending-chart" id="spending-chart"></div>
+      </div>
+      <hr class="divider" />
+      <div class="spending_info">
+        <p class="spending_total">Total this month <span>$478.33</span></p>
+        <p class="spending_comparison"><span>+2.4%</span> from last month</p>
+      </div>
+    </div>
+    <!-- </main> -->
+
+    <footer class="attribution">
+      Challenge by <a href="https://crio.do" target="_blank">CrioDo</a>. 
+      Coded by <a href="https://github.com/mohammedAlia08" target="_blank">Mohammed Alia</a>.
+    </footer>
+    <script type="module" src="./main.js" defer></script>
+  </body>
+</html>
